@@ -1,0 +1,42 @@
+/* Global Styles */
+.btn-solution {
+  background-color: #b68c5a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner
+{
+    background-image: url(../images/rectangle\ 4.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+.search-box {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 400px;
+  border: 0;
+  padding: 12px;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .text-white
+    {
+        color: black !important;
+    }
+    .search-box
+    {
+        background-color: rgb(156, 225, 156);
+        color: #ffffff;
+        width: 65%;
+    }
+    
+}
