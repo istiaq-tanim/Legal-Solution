@@ -1,4 +1,8 @@
 /* Global Styles */
+.color-solution
+{
+  color: #b68c5a;
+}
 .btn-solution {
   background-color: #b68c5a;
   color: #ffffff;
@@ -11,10 +15,13 @@
 .banner
 {
     background-image: url(../images/rectangle\ 4.png);
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    
 }
 .search-box {
   background: #ffffff;
@@ -28,10 +35,6 @@
 
 @media screen and (max-width:576px) {
 
-    .text-white
-    {
-        color: black !important;
-    }
     .search-box
     {
         background-color: rgb(156, 225, 156);
